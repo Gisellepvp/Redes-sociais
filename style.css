@@ -3,7 +3,7 @@
 :root {
     --bg-color:#1E2A5E;
     --primary-color:#B5CFB7;
-    --secundary-color:#021526;
+    --secundary-color:#91c8f8;
     --font: "Bebas Neue", sans-serif;
 
 }
@@ -45,3 +45,16 @@ footer{
     height: 3rem;
     margin-top: 2rem;
     }
+    .graficos-container{
+        margin: 5rem;
+  }
+  .graficos-container_texto{
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 2rem;
+    border: var(--secundary-color) solid 2px;
+  }
+  span {
+    font-weight: bold;
+    color: var(--secundary-color);
+  }
